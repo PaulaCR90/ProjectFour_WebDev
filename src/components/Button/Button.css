@@ -1,0 +1,12 @@
+.main-button {
+  border-radius: 0;
+  padding: var(--rtc-s-spacing) var(--rtc-s-spacing) var(--rtc-xs-spacing)
+    var(--rtc-s-spacing);
+  cursor: pointer;
+  font-family: var(---rtc-font-family);
+}
+
+.main-button:hover {
+  box-shadow: 1px 1px 1px 0px rgba(89, 255, 0, 0.75);
+  font-family: var(--rtc-font-bold);
+}

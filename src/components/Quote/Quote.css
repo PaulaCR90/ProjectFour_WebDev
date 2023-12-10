@@ -1,0 +1,20 @@
+.quoteContainer {
+  background-color: var(--rtc-davys-gray);
+  width: 80%;
+  padding: var(--rtc-l-spacing) 0;
+}
+
+.quoteText,
+.quoteAuthor {
+  color: var(--rtc-seasalt);
+  border: 1px solid var(--rtc-silver);
+  width: fit-content;
+  padding: var(--rtc-s-spacing);
+}
+
+.Quote {
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: var(--rtc-l-spacing);
+}

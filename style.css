@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Special+Elite&display=swap');
+
+:root {
+  --rtc-font-family: 'Cutive Mono', monospace;
+  --rtc-font-bold: 'Special Elite', sans-serif;
+  /*Colors*/
+  --rtc-bright-green: #59ff00ff;
+  --rtc-silver: #c4c4c4ff;
+  --rtc-seasalt: #f4f7f5ff;
+  --rtc-davys-gray: #2c3036;
+  --rtc-eerie-black: #282c33;
+  --rtc-pakistan-green: #094200ff;
+  /*Spacings*/
+  --rtc-xs-spacing: 0.25rem;
+  --rtc-s-spacing: 0.5rem;
+  --rtc-m-spacing: 1rem;
+  --rtc-l-spacing: 2rem;
+  --rtc-xl-spacing: 5rem;
+  /*Extra*/
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--rtc-font-bold);
+  list-style: none;
+  text-decoration: none;
+}
+
+#app {
+  width: 100svw;
+  background-color: var(--rtc-eerie-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

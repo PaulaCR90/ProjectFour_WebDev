@@ -1,0 +1,11 @@
+span {
+  color: var(--rtc-bright-green);
+}
+
+.main-link {
+  cursor: pointer;
+}
+
+.main-link:hover {
+  border-bottom: 1px solid var(--rtc-seasalt);
+}

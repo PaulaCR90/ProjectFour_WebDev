@@ -1,0 +1,19 @@
+header {
+  width: 80%;
+  height: var(--rtc-xl-spacing);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--rtc-davys-gray);
+}
+
+nav {
+  width: 50%;
+}
+
+.linkList {
+  display: flex;
+  gap: var(--rtc-m-spacing);
+  align-items: center;
+  justify-content: end;
+}

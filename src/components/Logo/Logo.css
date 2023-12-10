@@ -1,0 +1,15 @@
+.Name {
+  color: var(--rtc-seasalt);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.logoImage {
+  width: 10px;
+  margin-bottom: 5px;
+}
