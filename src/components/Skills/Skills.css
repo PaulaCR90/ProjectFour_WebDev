@@ -1,0 +1,45 @@
+.skillsSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--rtc-s-spacing);
+}
+
+.skillsHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-bottom: var(--rtc-m-spacing);
+}
+
+.divBoxContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: var(--rtc-s-spacing);
+  padding-bottom: var(--rtc-l-spacing);
+}
+
+.divBoxContainer > :nth-child(2) {
+  margin-top: var(--rtc-m-spacing);
+}
+
+.skillBox {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border: 1px solid var(--rtc-grey);
+  max-width: 10rem;
+}
+
+.skillBox > h4,
+.skillBox > p {
+  padding: var(--rtc-s-spacing);
+}
+.skillBox > p {
+  width: 100%;
+  border-top: 1px solid var(--rtc-grey);
+  color: var(--rtc-grey);
+}

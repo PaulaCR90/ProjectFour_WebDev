@@ -3,7 +3,7 @@ import './Button.css'
 export const Button = ({
   texto = 'Add a text here',
   border = '#59ff00ff',
-  buttonClass = 'main-button',
+  buttonClass = 'main-button worksButton',
   bgColor = 'transparent',
   fontColor = '#f4f7f5ff'
 }) => {

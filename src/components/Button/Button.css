@@ -4,9 +4,12 @@
     var(--rtc-s-spacing);
   cursor: pointer;
   font-family: var(---rtc-font-family);
+  transition: ease 0.5s;
+  box-shadow: none;
 }
 
 .main-button:hover {
-  box-shadow: 1px 1px 1px 0px rgba(89, 255, 0, 0.75);
+  transition: ease 0.5s;
+  box-shadow: 2px 2px 2px 0px rgba(89, 255, 0, 0.75);
   font-family: var(--rtc-font-bold);
 }

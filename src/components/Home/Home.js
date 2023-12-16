@@ -2,10 +2,10 @@ import './Home.css'
 import { Button } from '../Button/Button'
 
 export const Home = () => {
-  const Article$$ = document.createElement('article')
-  Article$$.className = 'homeContainer'
-  const sectionHome$$ = document.createElement('section')
-  sectionHome$$.className = 'textContainer'
+  const section$$ = document.createElement('section')
+  section$$.className = 'homeContainer'
+  const divContainer$$ = document.createElement('div')
+  divContainer$$.className = 'textContainer'
   const h3$$ = document.createElement('h3')
   h3$$.className = 'Title'
   const spanOne$$ = document.createElement('span')
@@ -24,10 +24,10 @@ export const Home = () => {
   homeImage$$.alt = 'Main image'
   homeImage$$.className = 'mainImage'
   h3$$.appendChild(spanOne$$)
-  sectionHome$$.appendChild(h3$$)
-  sectionHome$$.appendChild(p$$)
-  sectionHome$$.appendChild(button$$)
-  Article$$.appendChild(sectionHome$$)
-  Article$$.appendChild(homeImage$$)
-  return Article$$
+  divContainer$$.appendChild(h3$$)
+  divContainer$$.appendChild(p$$)
+  divContainer$$.appendChild(button$$)
+  section$$.appendChild(divContainer$$)
+  section$$.appendChild(homeImage$$)
+  return section$$
 }

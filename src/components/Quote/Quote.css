@@ -2,19 +2,29 @@
   background-color: var(--rtc-davys-gray);
   width: 80%;
   padding: var(--rtc-l-spacing) 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .quoteText,
 .quoteAuthor {
   color: var(--rtc-seasalt);
-  border: 1px solid var(--rtc-silver);
   width: fit-content;
   padding: var(--rtc-s-spacing);
+}
+
+.quoteAuthor {
+  border: 1px solid var(--rtc-grey);
+  border-top: 0;
+}
+
+.quoteText {
+  border: 1px solid var(--rtc-grey);
 }
 
 .Quote {
   height: max-content;
   display: flex;
   flex-direction: column;
-  gap: var(--rtc-l-spacing);
 }

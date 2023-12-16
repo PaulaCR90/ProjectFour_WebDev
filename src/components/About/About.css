@@ -1,0 +1,35 @@
+.aboutContainer {
+  width: 80%;
+  background-color: var(--rtc-davys-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--rtc-l-spacing);
+}
+
+.divHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.aboutContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: var(--rtc-l-spacing);
+}
+
+.PaulaCR {
+  height: 25rem;
+}
+
+.pContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--rtc-m-spacing);
+  color: var(--rtc-grey);
+}
