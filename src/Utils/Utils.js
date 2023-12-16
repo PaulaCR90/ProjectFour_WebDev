@@ -13,7 +13,7 @@ export const navBar = [
   },
   {
     name: 'contacts',
-    href: '/contacts'
+    href: 'mailto:p.a.castrorodriguez@gmail.com'
   }
 ]
 
