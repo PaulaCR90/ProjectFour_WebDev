@@ -5,7 +5,7 @@ export const Logo = () => {
   logoContainer$$.className = 'logoContainer'
   const logo$$ = document.createElement('img')
   logo$$.className = 'logoImage'
-  logo$$.src = '../../../public/assets/logoBlanco.png'
+  logo$$.src = '/assets/logoBlanco.png'
   const logoName$$ = document.createElement('p')
   logoName$$.className = 'Name'
   logoName$$.textContent = 'PaulaCR'

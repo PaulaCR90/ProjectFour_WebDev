@@ -22,7 +22,7 @@ export const About = () => {
   divDivider$$.className = 'pContent'
   const img$$ = document.createElement('img')
   img$$.className = 'PaulaCR'
-  img$$.src = '../../../public/assets/PaulaCR2.png'
+  img$$.src = './assets/PaulaCR2.png'
   img$$.alt = 'PaulaCR'
   AboutInfo.forEach((element) => {
     const p$$ = document.createElement('p')

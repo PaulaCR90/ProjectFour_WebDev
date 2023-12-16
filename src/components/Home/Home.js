@@ -20,7 +20,7 @@ export const Home = () => {
   const button$$ = Button({ texto: 'Contact me!' })
 
   const homeImage$$ = document.createElement('img')
-  homeImage$$.src = '../../../public/assets/Paula.png'
+  homeImage$$.src = './assets/Paula.png'
   homeImage$$.alt = 'Main image'
   homeImage$$.className = 'mainImage'
   h3$$.appendChild(spanOne$$)

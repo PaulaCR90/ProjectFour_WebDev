@@ -1,5 +1,4 @@
 import { FooterInfo } from '../../Utils/Utils'
-import { Logo } from '../Logo/Logo'
 import './Footer.css'
 
 export const Footer = () => {

@@ -42,7 +42,7 @@ export const skills = [
 
 export const SmallWorks = [
   {
-    Image: '../../public/assets/Fofuchicas.png',
+    Image: './assets/Fofuchicas.png',
     Title: 'Fofuchicas shop',
     Description: 'Shopping page',
     Sources: 'HTML, CSS, JavaScript',
@@ -50,7 +50,7 @@ export const SmallWorks = [
     Button: 'Fofuchicas'
   },
   {
-    Image: '../../public/assets/Bigote.png',
+    Image: './assets/Bigote.png',
     Title: 'Site desing and develop',
     Description: 'Site for animal asociation',
     Sources: 'HTML, CSS, JavaScript, React',
@@ -58,7 +58,7 @@ export const SmallWorks = [
     Button: 'Don Bigote'
   },
   {
-    Image: '../../public/assets/New.webp',
+    Image: './assets/New.webp',
     Title: 'Already developing',
     Description: 'Portfolios for UX/UIs',
     Sources: 'HTML, CSS, JavaScript, React',
@@ -69,7 +69,7 @@ export const SmallWorks = [
 
 export const SchoolProjects = [
   {
-    Image: '../../public/assets/Cleopatra.png',
+    Image: './assets/Cleopatra.png',
     Title: 'Landing page',
     Description: 'Landing for cat shelter',
     Sources: 'HTML, CSS',
@@ -77,7 +77,7 @@ export const SchoolProjects = [
     Button: 'LBDC site'
   },
   {
-    Image: '../../public/assets/Fofuchicas.png',
+    Image: './assets/Fofuchicas.png',
     Title: 'Fofuchicas shop',
     Description: 'Shopping page',
     Sources: 'HTML, CSS, JavaScript',
@@ -85,7 +85,7 @@ export const SchoolProjects = [
     Button: 'Fofuchicas site'
   },
   {
-    Image: '../../public/assets/Nasa.png',
+    Image: './assets/Nasa.png',
     Title: "NASA's picture of the day",
     Description: 'Astronomical picture of the day',
     Sources: 'HTML, CSS, JavaScript, Vite, React',
@@ -93,7 +93,7 @@ export const SchoolProjects = [
     Button: 'NASA site'
   },
   {
-    Image: '../../public/assets/Weather.png',
+    Image: './assets/Weather.png',
     Title: 'Weather site',
     Description: 'Weather app',
     Sources: 'HTML, CSS, JavaScript, Vite, React',
@@ -101,7 +101,7 @@ export const SchoolProjects = [
     Button: 'Weather site'
   },
   {
-    Image: '../../public/assets/GamesHub.png',
+    Image: './assets/GamesHub.png',
     Title: 'GamesHub',
     Description: "Mini-games. Password: 'Luigi'",
     Sources: 'HTML, CSS, JavaScript, Vite, React',
@@ -109,7 +109,7 @@ export const SchoolProjects = [
     Button: 'GamesHub'
   },
   {
-    Image: '../../public/assets/CountrySide.png',
+    Image: './assets/CountrySide.png',
     Title: 'Countryside Homes',
     Description: "Reproduction of 'Countryside Homes'",
     Sources: 'HTML, CSS',
@@ -117,7 +117,7 @@ export const SchoolProjects = [
     Button: 'CSHomes site'
   },
   {
-    Image: '../../public/assets/Cabezuela.png',
+    Image: './assets/Cabezuela.png',
     Title: "Improved 'La Cabezuela' site",
     Description: 'Upgrade La Cabezuela site',
     Sources: 'HTML, CSS, JavaScript',
@@ -125,7 +125,7 @@ export const SchoolProjects = [
     Button: 'La Cabezuela'
   },
   {
-    Image: '../../public/assets/Pinterest.png',
+    Image: './assets/Pinterest.png',
     Title: 'Simulation of Pinterest',
     Description: 'Image browser',
     Sources: 'HTML, CSS, JavaScript, Vite',
@@ -133,7 +133,7 @@ export const SchoolProjects = [
     Button: 'Pinterest site'
   },
   {
-    Image: '../../public/assets/Portfolio.png',
+    Image: './assets/Portfolio.png',
     Title: 'My Portfolio',
     Description: 'This portfolio!',
     Sources: 'HTML, CSS, JavaScript, Vite',
@@ -145,15 +145,15 @@ export const SchoolProjects = [
 export const FooterInfo = [
   {
     mediaHref: 'mailto:p.a.castrorodriguez@gmail.com',
-    mediaSrc: '../../public/assets/mailpeq.jpg'
+    mediaSrc: './assets/mailpeq.jpg'
   },
   {
     mediaHref:
       'https://www.linkedin.com/in/paula-alejandra-castro-rodr%C3%ADguez-a671b3208/',
-    mediaSrc: '../../public/assets/linkkedinpeq.jpg'
+    mediaSrc: './assets/linkkedinpeq.jpg'
   },
   {
     mediaHref: 'https://github.com/PaulaCR90/',
-    mediaSrc: '../../public/assets/github.jpg'
+    mediaSrc: './assets/github.jpg'
   }
 ]
