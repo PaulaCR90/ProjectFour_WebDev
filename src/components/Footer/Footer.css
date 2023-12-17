@@ -17,18 +17,33 @@ footer > h3 {
 
 footer {
   display: flex;
+  flex-direction: column-reverse;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 80%;
   background-color: var(--rtc-davys-gray);
-  padding: var(--rtc-l-spacing) var(--rtc-xl-spacing);
+  padding: var(--rtc-l-spacing) 0;
   padding-left: 0;
   border-top: 1px solid var(--rtc-bright-green);
+  gap: var(--rtc-m-spacing);
 }
 
 footer > ul {
-  width: 40%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 741px) {
+  footer > ul {
+    width: 40%;
+    padding-right: var(--rtc-l-spacing);
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+  }
 }

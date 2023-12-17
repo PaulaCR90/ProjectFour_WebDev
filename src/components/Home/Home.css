@@ -2,6 +2,8 @@
   width: 80%;
   background-color: var(--rtc-davys-gray);
   display: flex;
+  flex-direction: column;
+  padding-top: var(--rtc-l-spacing);
   align-items: center;
   justify-content: space-between;
 }
@@ -22,7 +24,7 @@
 }
 
 .mainImage {
-  width: 25rem;
+  width: 100%;
 }
 
 .textContainer {
@@ -31,4 +33,28 @@
   align-items: start;
   justify-content: center;
   gap: var(--rtc-l-spacing);
+}
+
+@media screen and (min-width: 741px) {
+  .mainImage {
+    width: 25rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .mainImage {
+    width: 20rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .mainImage {
+    width: 15rem;
+  }
+
+  .homeContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

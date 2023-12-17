@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   padding-top: var(--rtc-l-spacing);
+  gap: var(--rtc-l-spacing);
 }
 
 .divHeader {
@@ -17,19 +18,48 @@
 
 .aboutContent {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding-bottom: var(--rtc-l-spacing);
+  gap: var(--rtc-l-spacing);
 }
 
 .PaulaCR {
-  height: 25rem;
+  width: 10rem;
 }
 
 .pContent {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: var(--rtc-m-spacing);
   color: var(--rtc-grey);
+}
+
+@media screen and (min-width: 600px) {
+  .PaulaCR {
+    width: 15rem;
+  }
+  .aboutContent {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .PaulaCR {
+    width: 20rem;
+  }
+  .aboutContainer {
+    padding-top: var(--rtc-s-spacing);
+    gap: 0;
+  }
+
+  .aboutContent {
+    gap: var(--rtc-l-spacing);
+  }
+
+  .pContent {
+    width: 50%;
+  }
 }

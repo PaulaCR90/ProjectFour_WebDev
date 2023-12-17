@@ -2,13 +2,15 @@ header {
   width: 80%;
   height: var(--rtc-xl-spacing);
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: start;
   justify-content: space-between;
   background-color: var(--rtc-davys-gray);
+  padding-top: var(--rtc-m-spacing);
 }
 
 nav {
-  width: 50%;
+  width: 100%;
 }
 
 .linkList {
@@ -16,4 +18,11 @@ nav {
   gap: var(--rtc-m-spacing);
   align-items: center;
   justify-content: end;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    flex-direction: row;
+    align-items: center;
+  }
 }

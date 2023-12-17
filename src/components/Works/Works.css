@@ -1,6 +1,6 @@
 .landingImage {
-  width: 18rem;
-  height: 12rem;
+  width: 100%;
+  height: fit-content;
 }
 
 .worksContainer {
@@ -13,6 +13,11 @@
   background-color: var(--rtc-davys-gray);
   color: var(--rtc-grey);
   padding: var(--rtc-l-spacing) 0;
+}
+
+.sources {
+  font-size: 15px;
+  padding-left: var(--rtc-s-spacing);
 }
 
 .sources,
@@ -35,14 +40,15 @@
 
 .workContainer {
   border: 1px solid var(--rtc-seasalt);
-  width: min-content;
+  width: 100%;
   height: fit-content;
 }
 
 .boxContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--rtc-s-spacing);
+  justify-content: center;
+  gap: var(--rtc-m-spacing);
 }
 
 .elementsContainer {
@@ -54,4 +60,15 @@
 
 .worksButton {
   width: fit-content;
+}
+
+@media screen and (min-width: 500px) {
+  .landingImage {
+    width: 15rem;
+    height: 8rem;
+  }
+
+  .workContainer {
+    width: min-content;
+  }
 }

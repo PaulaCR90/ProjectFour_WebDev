@@ -10,11 +10,12 @@ export const navBar = [
   {
     name: 'works',
     href: '/works'
-  },
-  {
-    name: 'contacts',
-    href: 'mailto:p.a.castrorodriguez@gmail.com'
   }
+  // ,
+  // {
+  //   name: 'contacts',
+  //   href: 'mailto:p.a.castrorodriguez@gmail.com'
+  // }
 ]
 
 export const AboutInfo = [
@@ -51,19 +52,19 @@ export const SmallWorks = [
   },
   {
     Image: './assets/Bigote.png',
-    Title: 'Site desing and develop',
-    Description: 'Site for animal asociation',
+    Title: 'Site development',
+    Description: 'Web for animal asociation',
     Sources: 'HTML, CSS, JavaScript, React',
     Site: 'https://donbigote.netlify.app/',
     Button: 'Don Bigote'
   },
   {
-    Image: './assets/New.webp',
+    Image: '../../public/assets/New.jpg',
     Title: 'Already developing',
     Description: 'Portfolios for UX/UIs',
     Sources: 'HTML, CSS, JavaScript, React',
     Site: '#',
-    Button: 'Loading sites...'
+    Button: 'Loading pages...'
   }
 ]
 
@@ -74,7 +75,7 @@ export const SchoolProjects = [
     Description: 'Landing for cat shelter',
     Sources: 'HTML, CSS',
     Site: 'https://losbigotesdecleopatra.netlify.app/',
-    Button: 'LBDC site'
+    Button: 'Los Bigotes de Cleopatra'
   },
   {
     Image: './assets/Fofuchicas.png',
@@ -82,43 +83,43 @@ export const SchoolProjects = [
     Description: 'Shopping page',
     Sources: 'HTML, CSS, JavaScript',
     Site: 'https://fofuchicas.netlify.app/',
-    Button: 'Fofuchicas site'
+    Button: 'Fofuchicas'
   },
   {
     Image: './assets/Nasa.png',
-    Title: "NASA's picture of the day",
-    Description: 'Astronomical picture of the day',
-    Sources: 'HTML, CSS, JavaScript, Vite, React',
+    Title: "NASA API's site",
+    Description: 'Astronomical picture',
+    Sources: 'HTML, CSS, JavaScript, React',
     Site: 'https://nasa-project-paulacr90.netlify.app/',
-    Button: 'NASA site'
+    Button: 'NASA'
   },
   {
     Image: './assets/Weather.png',
     Title: 'Weather site',
     Description: 'Weather app',
-    Sources: 'HTML, CSS, JavaScript, Vite, React',
+    Sources: 'HTML, CSS, JavaScript, React',
     Site: 'https://weatherapp-paulacr.netlify.app/',
-    Button: 'Weather site'
+    Button: 'Weather'
   },
   {
     Image: './assets/GamesHub.png',
     Title: 'GamesHub',
-    Description: "Mini-games. Password: 'Luigi'",
-    Sources: 'HTML, CSS, JavaScript, Vite, React',
+    Description: "Games. Password: 'Luigi'",
+    Sources: 'HTML, CSS, JavaScript, React',
     Site: 'https://gameshub-paulacr90.netlify.app/',
     Button: 'GamesHub'
   },
   {
     Image: './assets/CountrySide.png',
     Title: 'Countryside Homes',
-    Description: "Reproduction of 'Countryside Homes'",
+    Description: 'Home page',
     Sources: 'HTML, CSS',
     Site: 'https://projectone-webdev-paulacr90.netlify.app/',
-    Button: 'CSHomes site'
+    Button: 'CSHomes'
   },
   {
     Image: './assets/Cabezuela.png',
-    Title: "Improved 'La Cabezuela' site",
+    Title: "Improved 'La Cabezuela'",
     Description: 'Upgrade La Cabezuela site',
     Sources: 'HTML, CSS, JavaScript',
     Site: 'https://projecttwo-webdev-paulacr90.netlify.app/',
@@ -126,17 +127,17 @@ export const SchoolProjects = [
   },
   {
     Image: './assets/Pinterest.png',
-    Title: 'Simulation of Pinterest',
+    Title: 'Pic browser',
     Description: 'Image browser',
-    Sources: 'HTML, CSS, JavaScript, Vite',
+    Sources: 'HTML, CSS, JavaScript',
     Site: 'https://projectthree-webdev-paulacr90.netlify.app/',
-    Button: 'Pinterest site'
+    Button: 'Pinterest'
   },
   {
     Image: './assets/Portfolio.png',
     Title: 'My Portfolio',
     Description: 'This portfolio!',
-    Sources: 'HTML, CSS, JavaScript, Vite',
+    Sources: 'HTML, CSS, JavaScript',
     Site: 'https://projectfour-webdev-paulacr90.netlify.app/',
     Button: 'Portfolio'
   }

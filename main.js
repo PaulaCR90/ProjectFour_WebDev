@@ -54,7 +54,7 @@ const about = document.querySelector('.liAbout')
 about.addEventListener('click', createAbout)
 const works = document.querySelector('.liWorks')
 works.addEventListener('click', createWorks)
-const contacts = document.querySelector('.liContacts')
-contacts.addEventListener('click', () => {
-  window.location.href = 'mailto:p.a.castrorodriguez@gmail.com'
-})
+// const contacts = document.querySelector('.liContacts')
+// contacts.addEventListener('click', () => {
+//   window.location.href = 'mailto:p.a.castrorodriguez@gmail.com'
+// })
