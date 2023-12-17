@@ -59,7 +59,7 @@ export const SmallWorks = [
     Button: 'Don Bigote'
   },
   {
-    Image: '../../public/assets/New.jpg',
+    Image: './assets/New.jpg',
     Title: 'Already developing',
     Description: 'Portfolios for UX/UIs',
     Sources: 'HTML, CSS, JavaScript, React',
