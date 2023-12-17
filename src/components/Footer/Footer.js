@@ -10,6 +10,7 @@ export const Footer = () => {
     const li$$ = document.createElement('li')
     const a$$ = document.createElement('a')
     a$$.href = element.mediaHref
+    a$$.target = '_blank'
     const img$$ = document.createElement('img')
     img$$.src = element.mediaSrc
     img$$.className = 'mediaImages'
