@@ -38,115 +38,115 @@ export const skills = [
 
 export const SmallWorks = [
   {
-    Image: '../../public/assets/Fofuchicas.webp',
+    Image: './assets/Fofuchicas.webp',
     Title: `Fofuchicas's shop`,
     Description: 'Shopping page',
     Sources: 'HTML, CSS, JavaScript',
     Site: 'https://fofuchicas.netlify.app/',
     Button: 'Fofuchicas',
-    Logo: '../../public/assets/logoFofuchicas.png'
+    Logo: './assets/logoFofuchicas.png'
   },
   {
-    Image: '../../public/assets/Bigote.webp',
+    Image: './assets/Bigote.webp',
     Title: 'Site development',
     Description: 'Web for animal association',
     Sources: 'HTML, CSS, JavaScript, React',
     Site: 'https://donbigote.netlify.app/',
     Button: 'Don Bigote',
-    Logo: '../../public/assets/logoDonBigote.jpeg'
+    Logo: './assets/logoDonBigote.jpeg'
   },
   {
-    Image: '../../public/assets/New.webp',
+    Image: './assets/New.webp',
     Title: 'Already developing',
     Description: 'Portfolios for UX/UIs',
     Sources: 'HTML, CSS, JavaScript, React',
     Site: '#',
     Button: 'Loading pages...',
-    Logo: '../../public/assets/New.webp'
+    Logo: './assets/New.webp'
   }
 ]
 
 export const SchoolProjects = [
   {
-    Image: '../../public/assets/Cleopatra.webp',
+    Image: './assets/Cleopatra.webp',
     Title: 'Landing page',
     Description: 'Landing for cat shelter',
     Sources: 'HTML, CSS',
     Site: 'https://losbigotesdecleopatra.netlify.app/',
     Button: 'LBDC',
-    Logo: '../../public/assets/logoBigotesCleopatra.png'
+    Logo: './assets/logoBigotesCleopatra.png'
   },
   {
-    Image: '../../public/assets/Fofuchicas.webp',
+    Image: './assets/Fofuchicas.webp',
     Title: `Fofuchicas's shop`,
     Description: 'Shopping page',
     Sources: 'HTML, CSS, JavaScript',
     Site: 'https://fofuchicas.netlify.app/',
     Button: 'Fofuchicas',
-    Logo: '../../public/assets/logoFofuchicas.png'
+    Logo: './assets/logoFofuchicas.png'
   },
   {
-    Image: '../../public/assets/Nasa.webp',
+    Image: './assets/Nasa.webp',
     Title: "NASA API's site",
     Description: 'Astronomical picture',
     Sources: 'HTML, CSS, JavaScript, React',
     Site: 'https://nasa-project-paulacr90.netlify.app/',
     Button: 'NASA',
-    Logo: '../../public/assets/logoNasa.jpg'
+    Logo: './assets/logoNasa.jpg'
   },
   {
-    Image: '../../public/assets/Weather.webp',
+    Image: './assets/Weather.webp',
     Title: 'Weather site',
     Description: 'Weather app',
     Sources: 'HTML, CSS, JavaScript, React',
     Site: 'https://weatherapp-paulacr.netlify.app/',
     Button: 'Weather',
-    Logo: '../../public/assets/logoWeather.jpg'
+    Logo: './assets/logoWeather.jpg'
   },
   {
-    Image: '../../public/assets/GamesHub.webp',
+    Image: './assets/GamesHub.webp',
     Title: 'GamesHub',
     Description: "Games. Password: 'Luigi'",
     Sources: 'HTML, CSS, JavaScript, React',
     Site: 'https://gameshub-paulacr90.netlify.app/',
     Button: 'GamesHub',
-    Logo: '../../public/assets/gamesLogo.png'
+    Logo: './assets/gamesLogo.png'
   },
   {
-    Image: '../../public/assets/CountrySide.webp',
+    Image: './assets/CountrySide.webp',
     Title: 'Countryside Homes',
     Description: 'Home page',
     Sources: 'HTML, CSS',
     Site: 'https://projectone-webdev-paulacr90.netlify.app/',
     Button: 'CSHomes',
-    Logo: '../../public/assets/logoCSH.png'
+    Logo: './assets/logoCSH.png'
   },
   {
-    Image: '../../public/assets/Cabezuela.webp',
+    Image: './assets/Cabezuela.webp',
     Title: "Improved 'La Cabezuela'",
     Description: 'Upgrade La Cabezuela site',
     Sources: 'HTML, CSS, JavaScript',
     Site: 'https://projecttwo-webdev-paulacr90.netlify.app/',
     Button: 'La Cabezuela',
-    Logo: '../../public/assets/logoCabezuela.png'
+    Logo: './assets/logoCabezuela.png'
   },
   {
-    Image: '../../public/assets/Pinterest.webp',
+    Image: './assets/Pinterest.webp',
     Title: 'Pic browser',
     Description: 'Image browser',
     Sources: 'HTML, CSS, JavaScript',
     Site: 'https://projectthree-webdev-paulacr90.netlify.app/',
     Button: 'Pinterest',
-    Logo: '../../public/assets/logoPinterest.png'
+    Logo: './assets/logoPinterest.png'
   },
   {
-    Image: '../../public/assets/Portfolio.webp',
+    Image: './assets/Portfolio.webp',
     Title: 'My Portfolio',
     Description: 'This portfolio!',
     Sources: 'HTML, CSS, JavaScript',
     Site: 'https://projectfour-webdev-paulacr90.netlify.app/',
     Button: 'Portfolio',
-    Logo: '../../public/assets/favicon.png'
+    Logo: './assets/favicon.png'
   }
 ]
 

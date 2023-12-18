@@ -32,7 +32,7 @@ export const Home = () => {
   })
 
   const homeImage$$ = document.createElement('img')
-  homeImage$$.src = '../../../public/assets/Paula.png'
+  homeImage$$.src = './assets/Paula.png'
   homeImage$$.alt = 'Main image'
   homeImage$$.className = 'mainImage'
 
