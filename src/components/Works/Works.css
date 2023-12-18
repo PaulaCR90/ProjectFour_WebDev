@@ -1,5 +1,6 @@
 .landingImage {
   width: 100%;
+  height: 100%;
 }
 
 .worksContainer {
@@ -14,15 +15,9 @@
   padding: var(--rtc-l-spacing) 0;
 }
 
-.sources {
-  font-size: 15px;
+/* .sources {
   padding-left: var(--rtc-s-spacing);
-}
-
-.sources,
-.landingImage {
-  border-bottom: 1px solid var(--rtc-grey);
-}
+} */
 
 .title,
 .worksHeader {
@@ -35,12 +30,6 @@
   display: flex;
   align-items: center;
   justify-content: start;
-}
-
-.workContainer {
-  border: 1px solid var(--rtc-seasalt);
-  width: 100%;
-  height: fit-content;
 }
 
 .boxContainer {
@@ -61,7 +50,49 @@
   width: fit-content;
 }
 
-@media screen and (min-width: 500px) {
+/*Efecto al hover*/
+.Card {
+  width: 14rem;
+  height: 10rem;
+  perspective: 1000px;
+  position: relative;
+  font-size: 12px;
+}
+
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: transform 0.6s;
+  backface-visibility: hidden;
+}
+
+.front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back {
+  display: flex;
+  flex-direction: column;
+  padding-left: var(--rtc-m-spacing);
+  justify-content: center;
+  border: 1px solid var(--rtc-seasalt);
+  transform: rotateY(180deg);
+}
+
+/* Aplicar rotación al hacer hover */
+.Card:hover .front {
+  transform: rotateY(180deg);
+}
+
+.Card:hover .back {
+  transform: rotateY(0);
+}
+
+/* @media screen and (min-width: 500px) {
   .landingImage {
     width: 15rem;
     height: 8rem;
@@ -70,4 +101,4 @@
   .workContainer {
     width: min-content;
   }
-}
+} */

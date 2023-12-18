@@ -39,15 +39,27 @@
   .mainImage {
     width: 25rem;
   }
-}
 
-@media screen and (min-width: 600px) {
-  .mainImage {
-    width: 20rem;
+  .homeContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) and (max-width: 740px) {
+  .mainImage {
+    width: 20rem;
+  }
+
+  .homeContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
   .mainImage {
     width: 15rem;
   }
