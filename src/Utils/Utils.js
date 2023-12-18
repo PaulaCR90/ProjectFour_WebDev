@@ -17,8 +17,8 @@ export const AboutInfo = [
   "Hello, I'm Paula",
 
   "I'm a full-stack developer based in Higueruela (AB), Spain.",
-  "I've been looking for my dream-job with miscellaneous options. I finally decide to start professionalizing myself as a full-stack programmer from horse riding teacher.",
-  "Now I'm studying at Rock{TheCode} by ThePowerMBA to become a versatile full-stack web developer.\nAlready done and doing some practice works for beneficent organizations, small shops and junior UX/UI designers."
+  'After exploring many different carrer paths, I finally found my dream job. I have started to transition professionally from horse riding teacher to a full-stack developer.',
+  "Now I'm studying at Rock{TheCode} by ThePowerMBA to become a versatile full-stack web developer.\nI have already begun honing my skills with practice work for charities, small shops and junior UX/UI designers"
 ]
 
 export const skills = [

@@ -16,7 +16,7 @@ export const Home = () => {
   const p$$ = document.createElement('p')
   p$$.className = 'description'
   p$$.textContent =
-    'She really likes to get out from her comfort zone and learn as many programming languages as possible'
+    'She really likes to get out of her comfort zone and learn as many programming languages as possible'
   const button$$ = Button({ texto: 'Contact me!' })
   //  button$$.addEventListener('click', () => {
   //    window.location.href = `mailto:p.a.castrorodriguez@gmail.com`
