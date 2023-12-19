@@ -1,0 +1,7 @@
+.worksHeader {
+  width: 100%;
+  border-bottom: 1px solid var(--rtc-bright-green);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}

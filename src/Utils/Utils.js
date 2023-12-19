@@ -1,25 +1,36 @@
+import { initAbout } from '../components/About/About';
+import { initWorks } from '../components/Works/Works';
+import { initHome } from '../components/Home/Home';
+
 export const navBar = [
   {
     name: 'home',
-    href: '/home'
+    href: '/home',
+    className: 'liHome',
+    component: initHome
   },
   {
     name: 'about-me',
-    href: '/about'
+    href: '/about',
+    className: 'liAbout',
+    component: initAbout
   },
   {
     name: 'works',
-    href: '/works'
+    href: '/works',
+    className: 'liWorks',
+    component: initWorks
   }
-]
+];
 
 export const AboutInfo = [
   "Hello, I'm Paula",
 
   "I'm a full-stack developer based in Higueruela (AB), Spain.",
   'After exploring many different carrer paths, I finally found my dream job. I have started to transition professionally from horse riding teacher to a full-stack developer.',
-  "Now I'm studying at Rock{TheCode} by ThePowerMBA to become a versatile full-stack web developer.\nI have already begun honing my skills with practice work for charities, small shops, bootcamp projects and junior UX/UI designers."
-]
+  "Now I'm studying at Rock{TheCode} by ThePowerMBA to become a versatile full-stack web developer.",
+  'I have already begun honing my skills with practice work for charities, small shops, bootcamp projects and junior UX/UI designers.'
+];
 
 export const skills = [
   {
@@ -34,7 +45,7 @@ export const skills = [
     category: 'Frameworks',
     items: 'React, Vite'
   }
-]
+];
 
 export const SmallWorks = [
   {
@@ -64,7 +75,7 @@ export const SmallWorks = [
     Button: 'Loading pages...',
     Logo: './assets/New.webp'
   }
-]
+];
 
 export const SchoolProjects = [
   {
@@ -148,7 +159,7 @@ export const SchoolProjects = [
     Button: 'Portfolio',
     Logo: './assets/favicon.png'
   }
-]
+];
 
 export const FooterInfo = [
   {
@@ -164,4 +175,4 @@ export const FooterInfo = [
     mediaHref: 'https://github.com/PaulaCR90/',
     mediaSrc: './assets/github.jpg'
   }
-]
+];

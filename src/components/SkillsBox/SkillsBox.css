@@ -1,0 +1,50 @@
+.divBoxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: var(--rtc-s-spacing);
+  padding-bottom: var(--rtc-l-spacing);
+}
+
+.divBoxContainer > :nth-child(1) {
+  margin-left: var(--rtc-l-spacing);
+}
+
+.divBoxContainer > :nth-child(3) {
+  margin-left: var(--rtc-xl-spacing);
+}
+
+.skillBox {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border: 1px solid var(--rtc-grey);
+  max-width: 10rem;
+}
+
+.skillBox > h4,
+.skillBox > p {
+  padding: var(--rtc-s-spacing);
+}
+.skillBox > p {
+  width: 100%;
+  border-top: 1px solid var(--rtc-grey);
+  color: var(--rtc-grey);
+}
+
+@media screen and (min-width: 465px) {
+  .divBoxContainer {
+    flex-direction: row;
+    align-items: start;
+  }
+
+  .divBoxContainer > :nth-child(2) {
+    margin-top: var(--rtc-m-spacing);
+    margin-left: 0;
+  }
+  .divBoxContainer > :nth-child(2) {
+    margin-left: 0;
+  }
+}
